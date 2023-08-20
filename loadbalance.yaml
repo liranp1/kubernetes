@@ -4,7 +4,7 @@ metadata:
   name: spring-music
 spec:
   selector:
-    app.kubernetes.io/name: spring-music
+    app=spring-music
   ports:
     - protocol: TCP
       port: 8080
